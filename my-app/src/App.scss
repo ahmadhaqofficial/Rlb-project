@@ -144,7 +144,7 @@ border-bottom-right-radius: 15px;
     justify-content: space-between;
   width: 100%;
     position: absolute;
-    top: 20%;
+    top: 10%;
     max-width: 1479.5px;
    
     text-align: center;
@@ -256,15 +256,81 @@ margin-bottom: 3em;
 .find__button{
    
     text-align: center;
-   margin-bottom: 2em;
+   margin-bottom: 4em;
 }
 .find__button button{
     height: 30px;
     width: 250px;
     border-radius: 10px;
     border:none;
+    cursor: pointer;
 }
 .button:hover{
     color: white;
     background-color: black;
+}
+.find__job__buttoon{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border:none;
+    background-color: #EE7A27;
+    color: white;
+    cursor: pointer;
+}
+.find__job__buttoon:hover{
+    
+    color: white;
+}
+.we__find__container{
+    text-align: start;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+ 
+   
+}
+.we__find__main{
+    background-color: #3E3E3E;
+    color: white;
+    width: 30%;
+    padding-left: 15em;
+    padding-top:2em ;
+    padding-bottom:2em ;
+    padding-right: 2em;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.we__find__job{
+    font-size: 40px;
+    font-weight: 600;
+    // color: white;
+    margin-bottom: .5em;
+}
+.we__find__job__content{
+    font-size: 20px;
+    font-size: 500;
+    margin-bottom: 1em;
+    
+
+    
+}
+.how__it__works{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.how__it__svg{
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.how__it__svg__main{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom:2em ;
 }
