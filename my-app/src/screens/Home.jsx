@@ -152,21 +152,7 @@ Sign up as a job seeker and put us to work.
 
 </div>
 </div>
-<div className='we__find__container__two'>
-<div className='we__find__container'>
-  <div className='we__find__main'>
-<div className='we__find__job'>
-We find the job for you
-</div>
-<div className='we__find__job__content'>
-Sign up as a job seeker and put us to work.
-</div>
-<div className='we__find__job__button'>
-  <button className='find__job__buttoon'>Register Directly</button>
 
-</div>
-</div>
-</div></div>
 
 
     </div>

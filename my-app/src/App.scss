@@ -226,7 +226,7 @@ border: none;
     padding: .5em;
     color: white;
     cursor: pointer;
-    margin-left: 3em;
+    margin-left: 3.7em;
     margin-top: -5px;
     width: 150px;
 
@@ -250,6 +250,7 @@ border: none;
     text-align: start;
 max-width: 1440px;
 margin: 0 auto;
+flex-wrap:wrap ;
 
 margin-bottom: 3em;
 }
@@ -333,4 +334,59 @@ margin-bottom: 3em;
     max-width: 1440px;
     margin: 0 auto;
     margin-bottom:2em ;
+}
+@media (max-width:900px){
+    .choose__friend__all{
+        flex-wrap: wrap;
+
+    }
+    .how__it__svg__main{
+        flex-wrap: wrap;
+        
+    }
+    .how__it__svg{
+        width: 30%;
+        margin-top:1em ;
+    }
+    .choose_card {
+        width: 50%;
+        height: 50%;
+        margin-top: 2em;
+    }
+}
+@media (max-width:600px){
+    .choose_card{
+        flex-direction: column;
+        width:70%;
+        height: 70%;
+        text-align: center;
+        align-items: center;
+    }
+.manager__button{
+    margin-left: 0em;
+}
+.we__find__main{
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    padding-left: 1em;
+}
+}
+@media (max-width:980px){
+    .rlb__heading{
+     display: flex;
+       width: 100;
+      
+    }
+    .rlb__content__main__left{
+        padding: 0;
+        margin: 2em;
+    }
+    .rlb__heading span{
+        display: flex;
+    }
+    .img__content{
+        height: 100%;
+        width: 100%;
+    }
 }
