@@ -103,7 +103,7 @@ border-bottom-right-radius: 15px;
 }
 .rlb__project__content__button{
     border:1px solid  white;
-    width: 23%;
+    width: 20%;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -120,9 +120,151 @@ border-bottom-right-radius: 15px;
     padding: .5em;
     
 }
+.rlb__project__navbar__button a:hover{
+    color: black;
+}
 .rlb__project__content__button svg{
     margin-left: .3em;
    
     color: white;
     
+}
+.choose__friend__container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top:4em ;
+    padding-left: 2.5em;
+    font-size: 35px;
+    font-weight: 600;
+  
+}
+.rlb__content__main{
+    display: flex;
+    justify-content: space-between;
+  width: 100%;
+    position: absolute;
+    top: 20%;
+    max-width: 1479.5px;
+   
+    text-align: center;
+    overflow: hidden;
+    
+}
+.img__content{
+    height: 650px;
+    width: 100%;
+    
+  
+}
+.rlb__heading{
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: .5em;
+    color: white;
+}
+.rlb__content__main__left{
+    margin-left: 8em;
+    padding-left: 4em;
+}
+.rlb__heading span{
+    font-size: 55px;
+    font-weight: 500;
+}
+.rlb__content{
+    width: 400px;
+    background-color: #00abea;
+    text-align: end;
+    padding: .5em;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-right: 1em;
+    margin-bottom:2em ;
+    margin-left:-11em ;
+    
+}
+.rlb__content__btn{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    border-radius:5px ;
+}
+.rlb__content__btn:hover{
+background-color: black;
+border: none;
+}
+.btn{
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+.rlb__content__btn svg{
+    color: white;
+}
+.rlb__project__all{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.choose__friend{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 4em;
+    padding-top: 4em;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+.manager__button{
+    background-color: #EE7A27;
+    border: none;
+    border-radius: 10px;
+    padding: .5em;
+    color: white;
+    cursor: pointer;
+    margin-left: 3em;
+    margin-top: -5px;
+    width: 150px;
+
+}
+.manager__button:hover{
+    background-color: black;
+}
+.choose_card img{
+    width: 250px;
+    height: 250px;
+}
+.choose_card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+.choose__friend__all{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+max-width: 1440px;
+margin: 0 auto;
+
+margin-bottom: 3em;
+}
+.find__button{
+   
+    text-align: center;
+   margin-bottom: 2em;
+}
+.find__button button{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border:none;
+}
+.button:hover{
+    color: white;
+    background-color: black;
 }
