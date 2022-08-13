@@ -152,21 +152,22 @@ border-bottom-right-radius: 15px;
     
 }
 .img__content{
-    height: 650px;
+    height: 600px;
     width: 100%;
     
   
 }
 .rlb__heading{
-    font-size: 50px;
-    font-weight: 700px;
-    margin-bottom: .5em;
-    color: white;
+   
+    font-size: 33px;
+    color: #f3f3f3;
+    margin-bottom: 1em;
+    display: flex!important;
+    flex-direction: column!important;
+    letter-spacing: 3px;
+
 }
-.rlb__content__main__left{
-    margin-left: 8em;
-    padding-left: 4em;
-}
+
 .rlb__heading span{
     font-size: 55px;
     font-weight: 500;
@@ -178,18 +179,22 @@ border-bottom-right-radius: 15px;
     padding: .5em;
     color: white;
     border-bottom-right-radius: 20px;
+
     border-top-right-radius: 20px;
     padding-right: 1em;
     margin-bottom:2em ;
-    margin-left:-11em ;
+    
     
 }
+
 .rlb__content__btn{
     display: flex;
     align-items: center;
     border: 1px solid white;
-    width: 30%;
-    height: 30px;
+    width: 14%;
+    height: 33px;
+    padding-left: 5px;
+    margin-left: 13em;
     cursor: pointer;
     border-radius:5px ;
 }
@@ -226,7 +231,7 @@ border: none;
     padding: .5em;
     color: white;
     cursor: pointer;
-    margin-left: 3.7em;
+    margin-left: 4em;
     margin-top: -5px;
     width: 150px;
 
@@ -235,8 +240,8 @@ border: none;
     background-color: black;
 }
 .choose_card img{
-    width: 250px;
-    height: 250px;
+    width: 90%;
+    height: 90%;
 }
 .choose_card{
     display: flex;
@@ -246,12 +251,12 @@ border: none;
 }
 .choose__friend__all{
     display: flex;
-    justify-content: space-evenly;
+    
     text-align: start;
 max-width: 1440px;
 margin: 0 auto;
 flex-wrap:wrap ;
-
+padding-left: 8em;
 margin-bottom: 3em;
 }
 .find__button{
@@ -302,6 +307,10 @@ margin-bottom: 3em;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
 }
+.rlb__content__main__left{
+width: 50%;
+}
+
 .we__find__job{
     font-size: 40px;
     font-weight: 600;
@@ -375,7 +384,10 @@ margin-bottom: 3em;
 @media (max-width:980px){
     .rlb__heading{
      display: flex;
-       width: 100;
+       width: 100%;
+       justify-content: center;
+       text-align: center;
+       
       
     }
     .rlb__content__main__left{
@@ -386,7 +398,42 @@ margin-bottom: 3em;
         display: flex;
     }
     .img__content{
-        height: 100%;
-        width: 100%;
-    }
+        display: none;
+       }
+       .rlb__content{
+           margin-left: 0;
+           padding: 0;
+           text-align: center;
+           width: 100%;
+           flex-direction: row !important;
+        
+           
+           background-color:transparent;
+       }
+       .rlb__content__main{
+           top: 7;
+       }
+       .body__img{
+           width: 100%;
+           border-radius: 0;
+       }
+       .rlb__content__main__left{
+           width: 100%;
+       }
+       .rlb__heading{
+           flex-direction:row !important ;
+           margin-left: 0;
+       }
+       .rlb__heading span{
+           font-size: 33px;
+           font-weight:500 ;
+       }
+       .rlb__content__btn{
+           margin-left: 0;
+       }
+       .rlb__content__btn{
+        display: inline-flex;
+       }
+   
 }
+
