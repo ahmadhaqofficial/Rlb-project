@@ -293,8 +293,12 @@ margin-bottom: 3em;
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
+    position: relative;
  
    
+}
+.we__find__container img{
+    z-index: 999;
 }
 .we__find__main{
     background-color: #3E3E3E;
@@ -304,8 +308,12 @@ margin-bottom: 3em;
     padding-top:2em ;
     padding-bottom:2em ;
     padding-right: 2em;
+    z-index: 1;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
+    position:absolute;
+    top: 8%;
+    left: 0;
 }
 .rlb__content__main__left{
 width: 50%;

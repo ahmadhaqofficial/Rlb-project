@@ -3,6 +3,7 @@ import logo from '../assets/navbarlogo.png'
 import background from '../assets/backgroudnavbar.png'
 import navright from '../assets/navright.png'
 import card from '../assets/card.png'
+import howback from '../assets/howback.png'
 
 
 
