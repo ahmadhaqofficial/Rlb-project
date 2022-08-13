@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .rlb__project__navbar{
     display: flex;
     justify-content: space-around;
@@ -5,13 +12,117 @@
     padding-top: 2em;
     max-width: 1440px;
     margin: 0 auto;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .rlb__project__navbar__button a{
 text-align: center;
-color: black;
+color:white;
 margin-left: 1em;
 margin-right: 1em;
 text-decoration: none;
-align-items: center;
 
+}
+.rlb__project{
+    position: relative;
+   
+}
+
+.body__img{
+width: 95%;
+height: 600px;
+border-left: 50px;
+background-color: #019AD3;
+border-bottom-left-radius: 50px;
+}
+
+.img_nav{
+    width: 100%;
+    text-align: end;
+    
+
+}
+.rlb__project__content{
+position: absolute;
+top:50%;
+left: 0;
+right: 0;
+width: 100%;
+}
+.rlb__project__heading{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+.rlb__project__heading span{
+font-size: 55px;
+font-weight: 700;
+}
+.rlb__project__sub__heading{
+    background-color: #00abea;
+   margin-left: -9em;
+   width: 60%;
+   margin-top: 2em;
+   margin-bottom: 2em;
+text-align: end;
+font-size: 20px;
+color: white;
+padding: 10px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.rlb__project__navbar__button{
+    display: flex;
+    align-items: center;
+}
+.rlb__project__navbar__right__logo img{
+    width: 550px;
+    height: 500px;
+    
+}
+.rlb__project__content__one{
+    width: 50%;
+    margin-left: 5em;
+}
+.rlb__project__navbar__right__logo{
+    width: 50%;
+    text-align: end;
+}
+.rlb__project__content{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 35%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 5em;
+ 
+}
+.rlb__project__content__button{
+    border:1px solid  white;
+    width: 23%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.nav__buton{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 2em;
+    padding: .5em;
+    
+}
+.rlb__project__content__button svg{
+    margin-left: .3em;
+   
+    color: white;
+    
 }
