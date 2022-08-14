@@ -152,7 +152,21 @@ Sign up as a job seeker and put us to work.
 <div>Continued</div>
 
 </div>
+
+
+
+
+
 </div>
+<div className='do__you__question__all'>
+<div className='do__you__question'>
+<div className='do__you__question__heading'>Do you have a question?</div>
+<div className='do__you__question__content'>Let us know and you'll hear from us soon!</div>
+<div className='we__find__job__button'>
+  <button className='find__job__buttoon'>Register Directly</button>
+
+</div>
+</div></div>
 
 
 

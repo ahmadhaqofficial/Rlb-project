@@ -311,7 +311,7 @@ margin-bottom: 3em;
     z-index: 1;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
-    position:absolute;
+   
     top: 8%;
     left: 0;
 }
@@ -320,7 +320,7 @@ width: 50%;
 }
 
 .we__find__job{
-    font-size: 40px;
+    font-size: 33px;
     font-weight: 600;
     // color: white;
     margin-bottom: .5em;
@@ -351,6 +351,34 @@ width: 50%;
     max-width: 1440px;
     margin: 0 auto;
     margin-bottom:2em ;
+}
+.do__you__question{
+width: 100%;
+
+
+
+}
+.do__you__question__all{
+    background-color: #3E3E3E;
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 30%;
+    text-align: end;
+    padding-left: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    margin-left: 15em;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    
+}
+.do__you__question__heading{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+
 }
 @media (max-width:900px){
     .choose__friend__all{
