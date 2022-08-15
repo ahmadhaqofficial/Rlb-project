@@ -6,6 +6,7 @@ import card from "../assets/card.png";
 import left from "../assets/left.png";
 import back from "../assets/back.png";
 import right from "../assets/right.png";
+import vaccinces from "../assets/vaccinces.png";
 
 export default function Home() {
   return (
@@ -232,6 +233,26 @@ export default function Home() {
           <div className="do__you__button">
             <button> Get in touch</button>
           </div>
+        </div>
+      </div>
+
+      <div className="all__vaccines__main">
+        <img src={vaccinces} alt="" />
+        <div className="vaccines__heading">
+          You know what you want and we <br />
+          know where to do it.
+        </div>
+        <div className="vaccieces__boxes">
+         
+        <div className="vaccieces__number">
+        1853 <br />Technical vacancies
+        </div>
+        <div className="vaccieces__number">
+        1566 <br />Successes 
+        </div>
+        <div className="vaccieces__number">
+        2531 <br />Different employers
+        </div>
         </div>
       </div>
     </div>

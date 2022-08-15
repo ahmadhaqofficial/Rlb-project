@@ -388,6 +388,55 @@ body {
     border-radius: 5px;
     
 }
+.all__vaccines__main img{
+    width: 100%;
+    height: 500px;
+}
+.all__vaccines__main{
+    margin-top: 4em;
+    position: relative;
+}
+.vaccines__heading{
+    font-size: 33px;
+    font-weight: 600;
+align-items: center;
+width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+   
+    margin-top: 2em;
+}
+.vaccieces__boxes{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+.vaccieces__number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 1em;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.vaccieces__number:hover{
+    border: 1px solid #EE7A27;
+    color: #EE7A27;
+    cursor: pointer;
+}
 @media (max-width: 900px) {
   .choose__friend__all {
     flex-wrap: wrap;
