@@ -570,7 +570,7 @@ body {
     font-weight: 600;
     width: 100%;
     text-align: center;
-    margin-top: 4em;
+    margin-top: 2em;
     margin-bottom: 1em;
 }
 .trusted__clients__content{
@@ -579,7 +579,19 @@ body {
     margin-bottom: 2em;
     
 }
+.trusted__clients__images__one{
 
+  display: flex;
+  justify-content: space-evenly;
+    max-width: 1440px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.trusted__clients__images__one img{
+width: 200px;
+margin-right: 3em;
+margin-bottom: 3em;
+}
 
 
 

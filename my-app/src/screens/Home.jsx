@@ -11,6 +11,14 @@ import bottom from "../assets/bottom.png";
 import adam from "../assets/adam.png";
 import letter from "../assets/letter.png";
 import lorem from "../assets/lorem.png";
+import bonder from "../assets/bonder.png";
+import chase from "../assets/chase.png";
+import comfreven from "../assets/comfreven.png";
+import conver  from "../assets/conver.png";
+import segment  from "../assets/segment.png";
+import harve  from "../assets/harve.png";
+import jobga  from "../assets/jobga.png";
+import novar  from "../assets/novar.png";
 
 export default function Home() {
   return (
@@ -329,7 +337,16 @@ export default function Home() {
     We partner up with forward thinking clients, being an extension of its marketing arera .
   </div>
 
-
+<div className="trusted__clients__images__one">
+<img src={bonder} alt="" />
+<img src={chase} alt="" />
+<img src={comfreven} alt="" />
+<img src={conver} alt="" />
+<img src={segment} alt="" />
+<img src={novar} alt="" />
+<img src={jobga} alt="" />
+<img src={novar} alt="" />
+</div>
 
 
     </div>
