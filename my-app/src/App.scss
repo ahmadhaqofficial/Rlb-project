@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .rlb__project__navbar {
@@ -436,7 +437,91 @@ width: 100%;
     border: 1px solid #EE7A27;
     color: #EE7A27;
     cursor: pointer;
+    transition: all 0.3s ease-out
 }
+.techies__went__for__you{
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.techies__went__for__you img{
+ margin-left: 16em;
+
+
+  
+}
+.techies__went__for__you__heading{
+    font-size:33px ;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+}
+.adm__jeo__heading{
+    font-size:33px ;
+    font-weight: 600;
+    color: #EE7A27;
+    margin-bottom: 1em;
+}
+.adam__jeo__content{
+    width: 70%;
+}
+.adam__jeo__container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.adm__jeo__content__main{
+    width: 50%;
+}
+.signup__letter__container{
+    margin-top: 4em;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+}
+.sign__up{
+    position: absolute;
+    top: 30%;
+}
+.sign__up__for__the__newsletter{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 1em;
+    color: white;
+}
+.sign__up__input{
+    display: flex;
+    justify-content: center;
+}
+.sign__up__input input{
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    padding-left: .5em;
+}
+.sign__up__button button{
+    padding: .5em;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    height: 40px;
+    font-size: 18px;
+    width: 130px;
+    margin-left: -5em;
+    background-color: #009BD1;
+    color: white;
+    cursor: pointer;
+}
+
 @media (max-width: 900px) {
   .choose__friend__all {
     flex-wrap: wrap;
