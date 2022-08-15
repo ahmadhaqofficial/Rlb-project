@@ -322,6 +322,16 @@ export default function Home() {
         </div>
       </div>
       </div>
+
+<div className="trusted__clients__heading">
+  Trusted clients</div>
+  <div className="trusted__clients__content">
+    We partner up with forward thinking clients, being an extension of its marketing arera .
+  </div>
+
+
+
+
     </div>
   );
 }

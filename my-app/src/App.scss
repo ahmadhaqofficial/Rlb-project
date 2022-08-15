@@ -231,7 +231,7 @@ body {
 }
 .choose__friend__all {
   display: flex;
-justify-content: center;
+  justify-content: center;
   text-align: start;
   max-width: 1440px;
   margin: 0 auto;
@@ -347,7 +347,6 @@ justify-content: center;
   position: relative;
   text-align: end;
   justify-content: flex-end;
- 
 }
 .do__you__have__heading {
   font-size: 33px;
@@ -367,212 +366,237 @@ justify-content: center;
   justify-content: center;
   width: 100%;
 }
-.do__you__have__heading{
-    margin-left:10em ;
-    margin-top: 1em;
+.do__you__have__heading {
+  margin-left: 10em;
+  margin-top: 1em;
 }
-.do__you__have__content{
-    margin-left:16em ;  
+.do__you__have__content {
+  margin-left: 16em;
 }
-.do__you__button{
-    margin-left:5em ; 
-    margin-top: 1em;
+.do__you__button {
+  margin-left: 5em;
+  margin-top: 1em;
 }
-.do__you__button button{
-    padding: 0.5em;
-    cursor: pointer;
-    position: absolute;
-    
-    background-color: #EE7A27;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    
+.do__you__button button {
+  padding: 0.5em;
+  cursor: pointer;
+  position: absolute;
+
+  background-color: #ee7a27;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
-.all__vaccines__main img{
-    width: 100%;
-    height: 500px;
+.all__vaccines__main img {
+  width: 100%;
+  height: 500px;
 }
-.all__vaccines__main{
-    margin-top: 4em;
-    position: relative;
+.all__vaccines__main {
+  margin-top: 4em;
+  position: relative;
 }
-.vaccines__heading{
+.vaccines__heading {
+  font-size: 33px;
+  font-weight: 600;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: white;
+
+  margin-top: 2em;
+}
+.vaccieces__boxes {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+.vaccieces__number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid white;
+  font-size: 18px;
+  padding: 1em;
+  border-radius: 10px;
+  height: 100px;
+  width: 150px;
+  text-align: center;
+}
+.vaccieces__number:hover {
+  border: 1px solid #ee7a27;
+  color: #ee7a27;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.techies__went__for__you {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.techies__went__for__you img {
+  margin-left: 16em;
+}
+.techies__went__for__you__heading {
+  font-size: 33px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 3em;
+}
+.adm__jeo__heading {
+  font-size: 33px;
+  font-weight: 600;
+  color: #ee7a27;
+  margin-bottom: 1em;
+}
+.adam__jeo__content {
+  width: 70%;
+}
+.adam__jeo__container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.adm__jeo__content__main {
+  width: 50%;
+}
+.signup__letter__container {
+  margin-top: 4em;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.sign__up {
+  position: absolute;
+  top: 30%;
+}
+.sign__up__for__the__newsletter {
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: white;
+}
+.sign__up__input {
+  display: flex;
+  justify-content: center;
+}
+.sign__up__input input {
+  width: 500px;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  padding-left: 0.5em;
+}
+.sign__up__button button {
+  padding: 0.5em;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  height: 40px;
+  font-size: 18px;
+  width: 130px;
+  margin-left: -5em;
+  background-color: #009bd1;
+  color: white;
+  cursor: pointer;
+}
+.lorem__years__container img {
+  width: 100%;
+  height: 100%;
+}
+.lorem__years__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 4em;
+  position: relative;
+}
+
+.lorem__years__container__heading {
+  font-size: 33px;
+  font-weight: 600;
+  text-align: center;
+
+  color: white;
+  margin-bottom: 1em;
+}
+.lorem__years__container__main {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.lorem__years__container__sub__content {
+  width: 47%;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.lorem__years__container__button {
+  text-align: center;
+  width: 60%;
+}
+.lorem__years__container__button button {
+  padding: 0.5em;
+  cursor: pointer;
+  margin-top: 2em;
+  background-color: #ee7a27;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.trusted__clients__heading{
     font-size: 33px;
     font-weight: 600;
-align-items: center;
-width: 100%;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    color: white;
-   
-    margin-top: 2em;
-}
-.vaccieces__boxes{
-    position: absolute;
-    top: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-}
-.vaccieces__number{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid white;
-    font-size: 18px;
-    padding: 1em;
-    border-radius: 10px;
-    height: 100px;
-    width: 150px;
-    text-align: center;
-}
-.vaccieces__number:hover{
-    border: 1px solid #EE7A27;
-    color: #EE7A27;
-    cursor: pointer;
-    transition: all 0.3s ease-out
-}
-.techies__went__for__you{
-    position: relative;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.techies__went__for__you img{
- margin-left: 16em;
-
-
-  
-}
-.techies__went__for__you__heading{
-    font-size:33px ;
-    font-weight: 600;
-    position: absolute;
-    top: 0;
     width: 100%;
     text-align: center;
-    margin-top: 3em;
-}
-.adm__jeo__heading{
-    font-size:33px ;
-    font-weight: 600;
-    color: #EE7A27;
-    margin-bottom: 1em;
-}
-.adam__jeo__content{
-    width: 70%;
-}
-.adam__jeo__container{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.adm__jeo__content__main{
-    width: 50%;
-}
-.signup__letter__container{
     margin-top: 4em;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content:center ;
-}
-.sign__up{
-    position: absolute;
-    top: 30%;
-}
-.sign__up__for__the__newsletter{
-    font-size: 33px;
-    font-weight: 600;
     margin-bottom: 1em;
-    color: white;
 }
-.sign__up__input{
-    display: flex;
-    justify-content: center;
-}
-.sign__up__input input{
-    width: 500px;
-    height: 35px;
-    border-radius: 10px;
-    outline: none;
-    border: 1px solid transparent;
-    padding-left: .5em;
-}
-.sign__up__button button{
-    padding: .5em;
-    border-radius: 10px;
-    outline: none;
-    border: 1px solid transparent;
-    height: 40px;
-    font-size: 18px;
-    width: 130px;
-    margin-left: -5em;
-    background-color: #009BD1;
-    color: white;
-    cursor: pointer;
-}
-.lorem__years__container img{
+.trusted__clients__content{
     width: 100%;
-    height: 100%;
-}
-.lorem__years__container{
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top: 4em;
-    position: relative;
-}
-    
-.lorem__years__container__heading{
-    font-size: 33px;
-    font-weight: 600;
     text-align: center;
+    margin-bottom: 2em;
     
-    color: white;
-    margin-bottom: 1em;
+}
 
-}
-.lorem__years__container__main{
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    right: 0;
-    left: 0;
-  
-}
-.lorem__years__container__sub__content{
-    width: 47%;
-    color: white;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    margin: 0 auto;
 
-}
-.lorem__years__container__button{
-    text-align: center;
-    width: 60%;
-}
-.lorem__years__container__button button{
-    padding: 0.5em;
-    cursor: pointer;
-    margin-top: 2em;
-    background-color: #EE7A27;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
   .choose__friend__all {
     flex-wrap: wrap;
