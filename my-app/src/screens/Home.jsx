@@ -14,11 +14,12 @@ import lorem from "../assets/lorem.png";
 import bonder from "../assets/bonder.png";
 import chase from "../assets/chase.png";
 import comfreven from "../assets/comfreven.png";
-import conver  from "../assets/conver.png";
-import segment  from "../assets/segment.png";
-import harve  from "../assets/harve.png";
-import jobga  from "../assets/jobga.png";
-import novar  from "../assets/novar.png";
+import conver from "../assets/conver.png";
+import segment from "../assets/segment.png";
+import harve from "../assets/harve.png";
+import jobga from "../assets/jobga.png";
+import novar from "../assets/novar.png";
+import footer from "../assets/footer.png";
 
 export default function Home() {
   return (
@@ -312,43 +313,137 @@ export default function Home() {
 
       <div className="lorem__years__container">
         <img src={lorem} alt="" />
-     
-      <div className="lorem__years__container__main">
-        <div className="lorem__years__container__heading">
-          Lorem Ipsum is simply dummy text of thee 1500s
-        </div>
-        <div className="lorem__years__container__sub__content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially.
-        </div>
-        <div className="lorem__years__container__button">
-          <button>Get in touch</button>
+
+        <div className="lorem__years__container__main">
+          <div className="lorem__years__container__heading">
+            Lorem Ipsum is simply dummy text of thee 1500s
+          </div>
+          <div className="lorem__years__container__sub__content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially.
+          </div>
+          <div className="lorem__years__container__button">
+            <button>Get in touch</button>
+          </div>
         </div>
       </div>
+
+      <div className="trusted__clients__heading">Trusted clients</div>
+      <div className="trusted__clients__content">
+        We partner up with forward thinking clients, being an extension of its
+        marketing arera .
       </div>
 
-<div className="trusted__clients__heading">
-  Trusted clients</div>
-  <div className="trusted__clients__content">
-    We partner up with forward thinking clients, being an extension of its marketing arera .
-  </div>
-
-<div className="trusted__clients__images__one">
-<img src={bonder} alt="" />
-<img src={chase} alt="" />
-<img src={comfreven} alt="" />
-<img src={conver} alt="" />
-<img src={segment} alt="" />
-<img src={novar} alt="" />
-<img src={jobga} alt="" />
-<img src={novar} alt="" />
-</div>
-
-
+      <div className="trusted__clients__images__one">
+        <img src={bonder} alt="" />
+        <img src={chase} alt="" />
+        <img src={comfreven} alt="" />
+        <img src={conver} alt="" />
+        <img src={segment} alt="" />
+        <img src={novar} alt="" />
+        <img src={jobga} alt="" />
+        <img src={novar} alt="" />
+      </div>
+      <div className="footer__container">
+        <div className="contacct__us__main">
+          <div className="contact__us__heading">Contact us</div>
+          <div className="location__finder">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#EE7A27"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-map-pin"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Meander 251 6825 MC Arnhem
+          </div>
+          <div className="location__finder">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#EE7A27"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-map-pin"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Tel : 026 - 376 4525
+          </div>
+          <div className="location__finder">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#EE7A27"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-map-pin"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Mob: 06 - 45256520
+          </div>
+          <div className="location__finder">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#EE7A27"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-map-pin"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            recruitment@rlbprofessionals. nl
+          </div>
+        </div>
+        <div className="footer__logo">
+          <img src={footer} alt="#" />
+        </div>
+        <div className="jobs__box">
+        <div className="jobs__container">
+          Jobs 
+        </div>
+        <div className="jobs__container">
+          Professionals 
+        </div>
+        <div className="jobs__container">
+           Traineeships 
+        </div>
+        <div className="jobs__container">
+         Clients 
+        </div>
+        <div className="jobs__container">
+           About us
+        </div></div>
+      </div>
     </div>
   );
 }

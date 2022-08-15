@@ -592,11 +592,36 @@ width: 200px;
 margin-right: 3em;
 margin-bottom: 3em;
 }
+.footer__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.contact__us__heading{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 1em;
+    color: #EE7A27;
+    text-align: start;
 
+}
 
-
-
-
+.footer__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.location__finder{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.location__finder svg{
+ margin-right: .5em;   
+ 
+}
+.jobs__container{
+    margin-bottom: 1em;
+}
 
 
 
