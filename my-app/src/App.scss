@@ -231,7 +231,7 @@ body {
 }
 .choose__friend__all {
   display: flex;
-
+justify-content: center;
   text-align: start;
   max-width: 1440px;
   margin: 0 auto;
@@ -536,7 +536,7 @@ width: 100%;
     font-size: 33px;
     font-weight: 600;
     text-align: center;
-    padding-left: 3em;
+    
     color: white;
     margin-bottom: 1em;
 
