@@ -10,6 +10,7 @@ import vaccinces from "../assets/vaccinces.png";
 import bottom from "../assets/bottom.png";
 import adam from "../assets/adam.png";
 import letter from "../assets/letter.png";
+import lorem from "../assets/lorem.png";
 
 export default function Home() {
   return (
@@ -271,33 +272,55 @@ export default function Home() {
 
       <div className="adam__jeo__container">
         <div className="adm__jeo__content__main">
-        <div className="adm__jeo__heading">Adam John</div>
-        <div className="adam__jeo__content">
-          lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially.
-        </div></div>
+          <div className="adm__jeo__heading">Adam John</div>
+          <div className="adam__jeo__content">
+            lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially.
+          </div>
+        </div>
         <div className="adam__jeo__pic">
           <img src={adam} alt="" />
         </div>
       </div>
 
       <div className="signup__letter__container">
-<img src={letter} alt="" />
-<div className="sign__up">
-<div className="sign__up__for__the__newsletter">Sign Up For the Newsletter</div>
-<div className="sign__up__input">
-<input type="emial" placeholder="ENTER YOUR EMAIL ADREES" />
-<div className="sign__up__button">
-  <button>Sign up</button>
-</div>
+        <img src={letter} alt="" />
+        <div className="sign__up">
+          <div className="sign__up__for__the__newsletter">
+            Sign Up For the Newsletter
+          </div>
+          <div className="sign__up__input">
+            <input type="emial" placeholder="ENTER YOUR EMAIL ADREES" />
+            <div className="sign__up__button">
+              <button>Sign up</button>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-    
 
+      <div className="lorem__years__container">
+        <img src={lorem} alt="" />
+     
+      <div className="lorem__years__container__main">
+        <div className="lorem__years__container__heading">
+          Lorem Ipsum is simply dummy text of thee 1500s
+        </div>
+        <div className="lorem__years__container__sub__content">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially.
+        </div>
+        <div className="lorem__years__container__button">
+          <button>Get in touch</button>
+        </div>
+      </div>
       </div>
     </div>
   );

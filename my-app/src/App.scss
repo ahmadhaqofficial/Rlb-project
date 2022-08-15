@@ -521,7 +521,58 @@ width: 100%;
     color: white;
     cursor: pointer;
 }
+.lorem__years__container img{
+    width: 100%;
+    height: 100%;
+}
+.lorem__years__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 4em;
+    position: relative;
+}
+    
+.lorem__years__container__heading{
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 3em;
+    color: white;
+    margin-bottom: 1em;
 
+}
+.lorem__years__container__main{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    right: 0;
+    left: 0;
+  
+}
+.lorem__years__container__sub__content{
+    width: 47%;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 0 auto;
+
+}
+.lorem__years__container__button{
+    text-align: center;
+    width: 60%;
+}
+.lorem__years__container__button button{
+    padding: 0.5em;
+    cursor: pointer;
+    margin-top: 2em;
+    background-color: #EE7A27;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 @media (max-width: 900px) {
   .choose__friend__all {
     flex-wrap: wrap;
