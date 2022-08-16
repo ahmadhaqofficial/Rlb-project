@@ -2,6 +2,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Home from './screens/Home';
+import Jobs from './screens/jobs';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
 
 <Routes>
 <Route path="/" element={<Home/>} />
-
+<Route path="*" element={<h1>404</h1>} />
+<Route path="/" element={<Jobs/>} />
 </Routes>
 </BrowserRouter>
   );
