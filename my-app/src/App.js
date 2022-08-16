@@ -10,8 +10,10 @@ function App() {
 
 <Routes>
 <Route path="/" element={<Home/>} />
+<Route path="/jobs" element={<Jobs/>} />
 <Route path="*" element={<h1>404</h1>} />
-<Route path="/" element={<Jobs/>} />
+
+
 </Routes>
 </BrowserRouter>
   );

@@ -629,17 +629,6 @@ margin-bottom: 3em;
     margin-bottom: 1em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 900px) {
   .choose__friend__all {
     flex-wrap: wrap;
@@ -725,4 +714,60 @@ margin-bottom: 3em;
   .rlb__content__btn {
     display: inline-flex;
   }
+}
+//jobs container start//
+
+.jobs__container__main img{
+  height: 500px;
+  width: 100%;
+}
+.jobs__project__navbar__logo img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.navbar__logo img{
+ 
+
+  width: 100%;
+  height: 60px;
+}
+.nabar__buttons a{
+  text-align: center;
+  color:white;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+.navbar__container{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 2em;
+  max-width: 1440px;
+  margin:  0 auto;
+}
+.nabar__buttons a:hover{
+  color: black;
+}
+.job:hover{
+color:black
+}
+.jobs__container__main__heading{
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
